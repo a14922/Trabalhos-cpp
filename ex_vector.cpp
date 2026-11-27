@@ -5,9 +5,9 @@ using namespace std;
 int main() {
    vector <int> myvector;
    int sum = 0;
-   myvector.pushback (100);
-   myvector.pushback (200);
-   myvector.pushback (300);
+   myvector.push_back (100);
+   myvector.push_back (200);
+   myvector.push_back (300);
    while ( !myvector.empty() ) {
     sum += myvector.back();
     myvector.pop_back();
